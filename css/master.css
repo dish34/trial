@@ -286,9 +286,10 @@ svg:hover{
     width: 100%;
   }
 }
-@media (min-width: 400px) and (max-width: 1200px) {
+@media (min-width: 400px) and (max-width: 992px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
   }
+
   .col-sm-1 {
     width: 8.33%;
   }
@@ -324,5 +325,12 @@ svg:hover{
   }
   .col-sm-12 {
     width: 100%;
+  }
+  .sabout2{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .sabout1{
+    padding: 5px;
   }
 }
