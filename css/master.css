@@ -116,11 +116,12 @@ svg {
   width:100px;
   float:left;
 }
-#dimg{
+.dimg{
   height:300px;
 }
 .name{
   color:orange;
+  display: inline-block;
 }
 #main-skill{
   height: 300px;
@@ -326,9 +327,10 @@ svg:hover{
   .col-sm-12 {
     width: 100%;
   }
-  .sabout2{
+  .simg{
     display: flex;
     justify-content: flex-end;
+    width:200px;
   }
   .sabout1{
     padding: 5px;
