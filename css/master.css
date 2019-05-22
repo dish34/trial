@@ -155,6 +155,10 @@ progress{
 .d-skill{
   float: left;
 }
+.contact{
+  text-align: center;
+  font-size: 2.5em;
+}
 #main-contact{
   background-color:r#f9c366;
   height:300px;
@@ -165,10 +169,10 @@ progress{
   float:left;
   margin: 15px;
 }
-#address{
+.address{
   color:white;
   float:left;
-  margin:15px;
+  margin-left:15px;
   padding: 5px;
 }
 #byebye{
@@ -287,7 +291,7 @@ svg:hover{
     width: 100%;
   }
 }
-@media (min-width: 400px) and (max-width: 992px) {
+@media (min-width: 300px) and (max-width: 992px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
   }
 
@@ -328,9 +332,9 @@ svg:hover{
     width: 100%;
   }
   .simg{
-    display: flex;
+    display: none;
     justify-content: flex-end;
-    width:200px;
+    width:100px;
   }
   .sabout1{
     padding: 5px;
