@@ -167,6 +167,58 @@ progress{
 .d-skill{
   float: left;
 }
+#Quora{
+  background-color: white;
+  height:500px;
+  color:black;
+}
+.writer{
+color: black;
+text-align: center;
+padding: 0px 15px 0px 2px;
+}
+.qname{
+  font-size: 2em;
+  color:#c70808;
+  text-align: center;
+}
+.bestans{
+  height:200px;
+  width:200px;
+  background-color: rgb(237, 243, 252);
+  float:left;
+  margin: 15px 10px 10px 10px;
+}
+.qans{
+  height:200px;
+  width:200px;
+  color:#c70808;
+  float:left;
+  padding:8px;
+  text-align: center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.stats{
+  float:right;
+  height:140px;
+  width:300px;
+  font-size: 1.25em;
+  margin:60px 0px 0px 0px;
+}
+.stats1{
+  float:left;
+  padding: 4px;
+}
+.stats2{
+  float:left;
+  padding: 4px;
+}
+.numbox{
+  height:15px;
+  background-color: grey;
+}
 .contact{
   margin :15px;
   text-align: center;
