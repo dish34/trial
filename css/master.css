@@ -132,6 +132,11 @@ svg {
   color:black;
 
 }
+#sintro{
+  font-size: 2.5em;
+  text-align: center;
+  padding: 15px;
+}
 .center{
  position:relative;
  display: flex;
@@ -150,17 +155,30 @@ svg {
   width:100px;
   float: left;
 }
+.contain{
+  width:100%;
+}
 progress{
   background-color:orange;
-  display: flex;
   height:3px;
+  float:left;
+  width:100%;
 }
 .d-skill{
   float: left;
 }
 .contact{
+  margin :15px;
   text-align: center;
   font-size: 2.5em;
+}
+#addr{
+  height:auto;
+  width:auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #main-contact{
   background-color:r#f9c366;
@@ -171,12 +189,13 @@ progress{
   color:white;
   float:left;
   margin: 15px;
+
 }
 .address{
   color:white;
   float:left;
-  margin-left:15px;
-  padding: 5px;
+  margin: 15px;
+
 }
 #byebye{
   background:white;
