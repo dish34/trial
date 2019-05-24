@@ -167,7 +167,7 @@ progress{
 .d-skill{
   float: left;
 }
-#Quora{
+.Quora{
   background-color: white;
   height:500px;
   color:black;
@@ -311,7 +311,7 @@ svg:hover{
 .icons img:hover{
   background-color:orange;
 }
-#quora{
+.quora{
   height:50px;
   width:50px;
 }
@@ -365,7 +365,7 @@ svg:hover{
     width: 100%;
   }
 }
-@media (min-width: 0px) and (max-width: 992px) {
+@media (min-width: 444px) and (max-width: 992px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
   }
 
@@ -415,5 +415,34 @@ svg:hover{
   }
   .sintro{
     font-size: 2em;
+  }
+  .sstats{
+    float:left;
+  }
+
+}
+@media (max-width: 443px) {
+  .squora{
+    height: 700px;
+  }
+  .simg{
+    display: none;
+    justify-content: flex-end;
+    width:100px;
+  }
+  .sabout1{
+    padding: 5px;
+  }
+  .sintro{
+    font-size: 2em;
+  }
+  .sstats{
+    float:left;
+       margin: 15px;
+  }
+  .sbestans{
+    margin: 15px;
+    display: block;
+
   }
 }
