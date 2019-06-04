@@ -461,12 +461,7 @@ svg:hover{
   }
   .smap{display: flex;justify-content: center;}
   .smapouter
-  {
-    height:300px;width:200px;
-  }
+  {height:300px;width:200px;}
   .sgmap_canvas
-  {
-    height:300px;width:200px;
-  }
-
+  { height:300px;width:200px;}
 }
